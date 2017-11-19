@@ -1,28 +1,23 @@
-# Modelo de Poster para TC
-Modelo de poster para TCs da FACIN
+# MIR Poster Template
+A poster template for conference presentations for the MIR nucleus. 
 
-Créditos para @andrellsantos pelo logo da FACIN centralizado no topo.
+Originally derived from the template developed for [undergraduate work for FACIN](https://github.com/meneguzzi/facin-tc-poster-template).
 
-## Como usar
+## How to Use
 
-1. Abra o arquivo ```poster.tex```
-2. Adicione seu conteúdo nas seções correspondentes
-3. Por organização, colocar figuras na pasta ```./fig```
-4. Compile o poster com o comando:
+1. Open the ```poster.tex``` file
+2. Add content to the respective sections
+3. Organize your figures under ```./fig```
+4. Compile the poster using the following command:
 ```bash
 pdflatex poster.tex && pdflatex poster.tex && pdflatex poster.tex
 ```
 
-## Documentos Base
+## Base Documents
 
-- Este modelo foi construído sobre a classe [a0poster](http://tug.ctan.org/tex-archive/macros/latex/contrib/a0poster/)
-- [Mini tutorial das opções de a0poster](http://www.eng.auburn.edu/~reevesj/Classes/ELEC6970-latex/posters/BEAMERPOSTER.pdf), além de outras opções de formatação de pôsteres com outras classes
+- This template was built using the following class as its base [a0poster](http://tug.ctan.org/tex-archive/macros/latex/contrib/a0poster/)
+- [Mini tutorial for a0poster options](http://www.eng.auburn.edu/~reevesj/Classes/ELEC6970-latex/posters/BEAMERPOSTER.pdf), as well as other formatting options for posters in other classes.
 
-## Exemplos de pôsteres de meus alunos
+## Possible options
 
-- [Andre dos Santos](https://github.com/meneguzzi/meneguzzi-final-projects/blob/master/posters/AndreLeonhardt_poster.pdf)
-- [Gabriel e Bruno](https://github.com/meneguzzi/meneguzzi-final-projects/blob/master/posters/GabrielBruno_poster.pdf)
-- [Martin e William](https://github.com/meneguzzi/meneguzzi-final-projects/blob/master/posters/MartinWilliam_poster.pdf)
-- [Matheus Redecker](https://github.com/meneguzzi/meneguzzi-final-projects/blob/master/posters/MatheusRedecker_poster.pdf)
-
-Caso você desenvolva quaisquer melhorias, por favor faça um pull request neste repositório
+TODO
