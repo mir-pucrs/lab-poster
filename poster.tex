@@ -94,35 +94,6 @@
 	\item A Figura~\ref{fig:minhafigura} ilustra isto.
 \end{itemize}
 
-
-\vspace{13mm}
-\noindent\begin{minipage}{.235\textwidth}
-	\begin{minipage}{\textwidth}
-		\lstset{style=codeStyle}
-		\begin{lstlisting}[language=Prolog, label={alg:exemplo-hello-world}, caption={Exemplo de programa em AgentSpeak(L).}]
-		/* Agent helloWorld */
-		/* Initial beliefs and rules */
-		
-		/* Initial goals */			
-		!start.
-		/* Plans */
-		+!start : true <- aloha; ?continue(true);      !run (agentspeak).
-		+!run(A) : true <- mahalo(A).
-		\end{lstlisting}
-	\end{minipage}\hfill
-	\vspace{7mm}
-	
-	\begin{minipage}{\textwidth}
-		\lstset{style=codeStyle}
-		\begin{lstlisting}[language=Prolog, label={alg:exemplo-projeto-hello-world}, caption={Exemplo de projeto do AgentSpeak(Py).}]
-		/* Project Name */
-		helloWorld:
-		// List of agents
-		agents = [helloWorld]
-		environment = HelloWorldEnv
-		\end{lstlisting}
-	\end{minipage}\hfill
-\end{minipage}\hfill
 \begin{minipage}{.235\textwidth}
 	\lstset{style=codeStyle}
 	\begin{lstlisting}[language=Python, label={alg:exemplo-environment}, caption={Exemplo da descrição do ambiente em Python.}]
