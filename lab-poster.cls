@@ -152,7 +152,8 @@
 		\ifx\@unilogo\@empty%
 			\relax%
 		\else%
-		\includegraphics[width=9cm]{\@unilogo} 
+		% \includegraphics[width=9cm]{\@unilogo}
+		{\@unilogo} 
 		\fi %
 			% \includegraphics[width=9cm]{fig/pucrs-logo.pdf}%
 		\end{center}%
@@ -160,7 +161,7 @@
 %	
 	\begin{minipage}[c]{0.70\linewidth}%
 		\centering%
-		\veryHuge \color{\@themecolor}%
+		\VeryHuge \color{\@themecolor}%
 		\textbf{\@title}\\%
 		%
 		\color{Black}%
@@ -184,7 +185,8 @@
 		\ifx\@lablogo\@empty%
 			\relax%
 		\else%
-		\includegraphics[width=9cm]{\@lablogo} 
+		% \includegraphics[width=9cm]{\@lablogo}
+		{\@lablogo}%
 		\fi %
 			% \includegraphics[width=9cm]{fig/facin-logo.pdf}%
 		\end{center}%

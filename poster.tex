@@ -10,8 +10,8 @@
 \author{Author 1, Author 2}
 
 \themecolor{Goldenrod}
-\unilogo{fig/pucrs-logo.pdf}
-\lablogo{fig/mir-logo.pdf}
+\unilogo{\includegraphics[width=8cm]{fig/pucrs-logo.pdf}}
+\lablogo{\hspace{-3cm}\includegraphics[width=12cm]{fig/mir-text.pdf}}
 
 \begin{document}
 \maketitle
@@ -22,81 +22,76 @@
 %---------------------------------------------------------------
 %	MOTIVAÇÃO
 %---------------------------------------------------------------
-% \color{NavyBlue}
-\section*{Seção 1}
-% \color{Black}
-\Large
-\justifying
+\section*{First Section}
 
 \begin{itemize}
-	\item Ponto 1;
-	\item Ponto 2;
+	\item Point 1;
+	\item Point 2;
 	\item 
 \end{itemize}
 
 %---------------------------------------------------------------
 %   AGENTES
 %---------------------------------------------------------------
-\section*{\huge Seção 2}
+\section*{Second Section}
 
 \begin{itemize}
-	\item Idéia 1; e
-	\item Idéia 2.
+	\item Idea 1; e
+	\item Idea 2.
 \end{itemize}
 
 %---------------------------------------------------------------
 %	AgentSpeak(L)
 %---------------------------------------------------------------
-\section*{\huge Seção 3}
+\section*{Third Section}
 
 \begin{itemize}
-	\item É uma linguagem abstrata de programação orientada a agentes baseada na arquitetura BDI;
-	\item Os programas desenvolvidos utilizando a linguagem, como exemplificado no Código~\ref{alg:exemplo-hello-world}, são especificados por um conjunto de crenças, planos, eventos ativadores e ações que o agente executa no ambiente;
-	%\item Rao \cite{article:Rao:1996} introduz as noções básicas para especificação desses conjuntos a partir das definições apresentadas na Tabela~\ref{tab:sintaxe-agentsepak}.
-	\item As definições da Tabela~\ref{tab:sintaxe-agentsepak} são utilizadas para especificar estes conjuntos.
+	\item Description 1;
+	\item You can see this point in Listing~\ref{alg:environment-example};
+	\item Definitions from...
 \end{itemize}
 
 \vspace{13mm}
 
 
 \begin{itemize}
-	\item Mais idéias...:
+	\item Key ideas...:
 	\begin{enumerate}
 		% [leftmargin=2em]\itemadjust
-		\item Idéia 1;
-		\item Idéia 2; 
-		\item Idéia 3; e
-		\item Idéia 4.
+		\item Idea 1;
+		\item Idea 2; 
+		\item Idea 3; e
+		\item Idea 4.
 	\end{enumerate}	
-	\item A Figura~\ref{fig:minhafigura} ilustra isto.
+	\item Figure~\ref{fig:myfig} illustrates the point.
 \end{itemize}
 \vspace{13mm}
 
 \begin{center}
-	%\includegraphics[width=0.99\linewidth]{fig/minha-figura.pdf}
-	\Huge Figura Aqui (include comentado)
-	\captionof{figure}{Exemplo de Figura.}
-	\label{fig:minhafigura}
+	%\includegraphics[width=0.99\linewidth]{fig/my-figure.pdf}
+	\Huge Figure Here (commented out include)
+	\captionof{figure}{Figure example.}
+	\label{fig:myfig}
 \end{center}	
 
+\columnbreak
 
-\section*{Seção 3}
+\section*{Fourth Section}
 
 \begin{itemize}
-	\item Mais idéias...:
+	\item More ideas...:
 	\begin{enumerate}
-		% [leftmargin=2em]\itemadjust
-		\item Idéia 1;
-		\item Idéia 2; 
-		\item Idéia 3; e
-		\item Idéia 4.
+		\item Idea 1;
+		\item Idea 2; 
+		\item Idea 3; e
+		\item Idea 4.
 	\end{enumerate}	
-	\item A Figura~\ref{fig:minhafigura} ilustra isto.
+	\item Figure~\ref{fig:myfig} illustrates this.
 \end{itemize}
 
 \begin{minipage}{.235\textwidth}
 	\lstset{style=codeStyle}
-	\begin{lstlisting}[language=Python, label={alg:exemplo-environment}, caption={Exemplo da descrição do ambiente em Python.}]
+	\begin{lstlisting}[language=Python, label={alg:environment-example}, caption={Example of an environment definition in Python.}]
 	from environment import *
 	lt_continue = parse_literal('continue(true)')
 	
@@ -117,9 +112,9 @@
 	\end{lstlisting}
 \end{minipage}
 
-\section*{\huge Seção 4}
+\section*{Fifth Section}
       
-Tamanho atual das fontes:
+Current Font Sizes:
 \begin{itemize}
 	\item {\tiny \verb|\tiny| Font Size: \showfontsize}
 	\item {\scriptsize \verb|\scriptsize| Font Size: \showfontsize}
@@ -132,13 +127,15 @@ Tamanho atual das fontes:
 	\item {\huge \verb|\huge| Font Size: \showfontsize}
 	\item {\Huge \verb|\Huge| Font Size: \showfontsize}
 	\item {\veryHuge \verb|\veryHuge| Font Size: \showfontsize}
+	\item {\VeryHuge \verb|\VeryHuge| Font Size: \showfontsize}
+	\item {\VERYHuge \verb|\VERYHuge| Font Size: \showfontsize}
 \end{itemize}
 
 
 %---------------------------------------------------------------
 %	REFERENCES
 %---------------------------------------------------------------
-% Descomentar abaixo caso queira usar referências bibliográficas no poster
+% Uncomment below if you want to use references in your paper.
 %\vspace{-10mm}
 %\large
 %\color{NavyBlue}
